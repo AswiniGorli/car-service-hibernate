@@ -1,13 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Vehicle Registration</title>
+<title>Login</title>
 <style>
-   
-        body {
+   <style>
+    body {
         font-family: Arial, sans-serif;
         background-color: #010;
    
@@ -37,9 +36,9 @@ text-decoration: none;
 color: black;
 }
     .form-container {
-    margin:5% 20% 5% 35%;
+    margin:10% 20% 10% 35%;
         background: white;
-        padding: 20px;
+        padding:1% 20px 3%;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: 300px;
@@ -52,10 +51,9 @@ color: black;
         border-radius: 5px;
     }
     button {
-        width: 100%;
+        width: 95%;
         padding: 10px;
         background-color: yellow;
-        
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -68,9 +66,11 @@ margin:1% 0%;
     background: #222;
     color: #fff;
 }
-    
+
+   
 </style>
 </head>
+
 <body>
 <nav>
 <img alt="" src="https://hoora.in/wp-content/themes/hoora/assets/img/car-yellow.svg">
@@ -80,21 +80,16 @@ margin:1% 0%;
 <button><a href="adduser.jsp">User SignUp</a></button>
 <button><a href="workersignup.jsp">Employee SignUp</a></button>
 </nav>
-    <div class="form-container">
-        <form action="insert" method="post">
-        <h1 style="text-align: center">User SignUp</h1>
-            <input name="id" placeholder="Enter ID" type="text" required>
-            <input name="name" placeholder="Enter name" type="text" required>
-            <input name="vehicletype" placeholder="Enter vehicle type" type="text" required>
-            <input name="vehicleno" placeholder="Enter vehicle number" type="text" required>
-            <input name="phoneo" placeholder="Enter phone number" type="text" required>
-            <input name="email" placeholder="Enter email" type="text" required>
-            <input name="password" placeholder="Enter password" type="text" required>
-            <button type="submit">Submit</button>
-        </form>
-          </div> 
+ <div class="form-container">
+<form action="wlogin" method="post">
+    <h1 style="text-align: center">Login</h1>
+    <input name="email" placeholder="Enter Email" type="text" required>
+    <input name="password" placeholder="Enter Password" type="password" required>
+    <button type="submit">Submit</button>
+</form>
+    </div>
 <footer>
         <p>&copy; 2025 Car Wash & Service. All rights reserved.</p>
-    </footer></div>
+    </footer>
 </body>
 </html>

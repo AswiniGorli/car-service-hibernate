@@ -6,8 +6,7 @@
 <meta charset="UTF-8">
 <title>Vehicle Registration</title>
 <style>
-   
-        body {
+    body {
         font-family: Arial, sans-serif;
         background-color: #010;
    
@@ -68,7 +67,6 @@ margin:1% 0%;
     background: #222;
     color: #fff;
 }
-    
 </style>
 </head>
 <body>
@@ -81,20 +79,20 @@ margin:1% 0%;
 <button><a href="workersignup.jsp">Employee SignUp</a></button>
 </nav>
     <div class="form-container">
-        <form action="insert" method="post">
-        <h1 style="text-align: center">User SignUp</h1>
-            <input name="id" placeholder="Enter ID" type="text" required>
-            <input name="name" placeholder="Enter name" type="text" required>
+        <form action="appinsert" method="post">
+        <h1 style="text-align: center">Book Now</h1>
+            <input name="email" placeholder="Enter email" type="text" required>
             <input name="vehicletype" placeholder="Enter vehicle type" type="text" required>
             <input name="vehicleno" placeholder="Enter vehicle number" type="text" required>
-            <input name="phoneo" placeholder="Enter phone number" type="text" required>
-            <input name="email" placeholder="Enter email" type="text" required>
-            <input name="password" placeholder="Enter password" type="text" required>
+            <input name="date" placeholder="Enter date" type="date" required>
+            <input name="time" placeholder="Enter time" type="time" required>
             <button type="submit">Submit</button>
         </form>
-          </div> 
+        
+    </div>
+    
 <footer>
         <p>&copy; 2025 Car Wash & Service. All rights reserved.</p>
-    </footer></div>
+    </footer>
 </body>
 </html>

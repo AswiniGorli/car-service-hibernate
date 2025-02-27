@@ -12,5 +12,7 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <mapping class="carservicemodels"/>
+        <mapping class="workersignup" />
+        <mapping class="appointment" />
     </session-factory>
 </hibernate-configuration>

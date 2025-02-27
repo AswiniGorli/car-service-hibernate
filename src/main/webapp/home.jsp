@@ -23,7 +23,7 @@ nav button
 {
 width: 10%;
 height:40px;
-margin:2% 6%;
+margin:2% 3%;
 background-color: yellow;
 border:none;
 border-radius:5%;
@@ -36,14 +36,12 @@ color: black;
 }
 .col
 {
-width: 450px;
-height: 350px;
-margin:1%;
 padding:1%;
 text-align: center;
 }
 
 footer {
+margin:1% 0%;
     text-align: center;
     padding: 15px;
     background: #222;
@@ -56,12 +54,13 @@ footer {
 <body>
 <nav>
 <img alt="" src="https://hoora.in/wp-content/themes/hoora/assets/img/car-yellow.svg">
-<button><a href="">home</a></button>
-<button><a href="">Services</a></button>
-<button><a>login</a></button>
-<button><a>Sign up</a></button>
+<button><a href="home.jsp">Home</a></button>
+<button><a href="appontmentInsert.jsp">Book Now</a></button>
+<button><a href="login.jsp">login</a></button>
+<button><a href="adduser.jsp">User SignUp</a></button>
+<button><a href="workersignup.jsp">Employee SignUp</a></button>
 </nav>
-  
+  <h1 >CAR Wash & Services</h1>
  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -91,23 +90,27 @@ footer {
     <div class="card">
       <img src="https://www.speedcarwash.com/images/services/silver-wash.jpg" class="card-img-top" alt="...">
       
-        <h5 class="card-title">Card title</h5>
-        
+        <h3 class="card-title">Silver Car Wash</h3>
+        <h2>₹159</h2>
+        <h4 style="color:red"> 25 % off</h4>
         </div>
         </div>
         <div class="col">
         <div class="card">
       <img src="https://www.speedcarwash.com/images/services/gold-wash.jpg" class="card-img-top" alt="...">
       
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Golden Car wash</h5>
+        <h2>₹299</h2>
+        <h4 style="color:red">  15 % off</h4>
         </div>
         </div>
         <div class="col">
         <div class="card">
       <img src="https://www.speedcarwash.com/images/services/platinum-wash.jpg" class="card-img-top" alt="...">
       
-        <h5 class="card-title">Card title</h5>
-        
+        <h5 class="card-title">Platinum Polishing</h5>
+      <h2>₹559</h2>
+        <h4 style="color:red">  30 % off</h4>
         </div>
         </div>
        
@@ -116,23 +119,27 @@ footer {
     <div class="card">
       <img src="https://www.speedcarwash.com/images/services/teflon-coating.jpg" class="card-img-top" alt="...">
       
-        <h5 class="card-title">Card title</h5>
-        
+        <h5 class="card-title">Polishing</h5>
+     <h2>₹399</h2>
+        <h4 style="color:red"> 55 % off</h4>
         </div>
         </div>
         <div class="col">
         <div class="card">
       <img src="https://www.speedcarwash.com/images/services/rubbing.jpg" class="card-img-top" alt="...">
       
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Buffing </h5>
+     <h2>₹299</h2>
+        <h4 style="color:red">  10 % off</h4>
         </div>
         </div>
         <div class="col">
         <div class="card">
       <img src="https://www.speedcarwash.com/images/services/internal-clean.jpg" class="card-img-top" alt="...">
       
-        <h5 class="card-title">Card title</h5>
-        
+        <h5 class="card-title">Interior Cleaning</h5>
+     <h2>₹659</h2>
+        <h4 style="color:red">  35 % off</h4>
         </div>
         </div>
         </div>

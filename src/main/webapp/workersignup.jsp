@@ -6,13 +6,12 @@
 <meta charset="UTF-8">
 <title>Vehicle Registration</title>
 <style>
-   
-        body {
+    body {
         font-family: Arial, sans-serif;
         background-color: #010;
    
     }
-    nav
+ nav
 {
 background-color: black;
 display: flex;
@@ -60,7 +59,20 @@ color: black;
         border-radius: 5px;
         cursor: pointer;
     }
-    
+    .buttns{
+    display:flex;
+    gap:5%;
+    margin:2% 5% 2% 33%;
+    }
+   .buttns button
+   {
+   width:20%;
+   } 
+   a
+{
+text-decoration: none;
+color: black;
+}
 footer {
 margin:1% 0%;
     text-align: center;
@@ -68,7 +80,6 @@ margin:1% 0%;
     background: #222;
     color: #fff;
 }
-    
 </style>
 </head>
 <body>
@@ -80,21 +91,26 @@ margin:1% 0%;
 <button><a href="adduser.jsp">User SignUp</a></button>
 <button><a href="workersignup.jsp">Employee SignUp</a></button>
 </nav>
-    <div class="form-container">
-        <form action="insert" method="post">
-        <h1 style="text-align: center">User SignUp</h1>
-            <input name="id" placeholder="Enter ID" type="text" required>
-            <input name="name" placeholder="Enter name" type="text" required>
-            <input name="vehicletype" placeholder="Enter vehicle type" type="text" required>
-            <input name="vehicleno" placeholder="Enter vehicle number" type="text" required>
-            <input name="phoneo" placeholder="Enter phone number" type="text" required>
-            <input name="email" placeholder="Enter email" type="text" required>
-            <input name="password" placeholder="Enter password" type="text" required>
-            <button type="submit">Submit</button>
-        </form>
-          </div> 
+   <div class="form-container">
+<form action="signup" method="post">
+<h1>Employee SignUp</h1>
+<input name="workerid" placeholder="enter id" type="text">
+<input name="workername" placeholder="enter name" type="text">
+<input name="email" placeholder="enter email" type="text">
+<input name="password" placeholder="enter password" type="text">
+<button type="submit">submit</button>
+
+</form>
+</div>
+<div class="buttns">
+<button><a href="getallappointments.jsp">all appointments</a></button>
+
+<button><a href="getall.jsp">all users</a></button>
+
+   </div> 
 <footer>
         <p>&copy; 2025 Car Wash & Service. All rights reserved.</p>
-    </footer></div>
+    </footer>
+
 </body>
 </html>
