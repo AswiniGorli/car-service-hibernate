@@ -129,7 +129,7 @@ margin:1% 0%;
       <img src="https://www.speedcarwash.com/images/services/rubbing.jpg" class="card-img-top" alt="...">
       
         <h5 class="card-title">Buffing </h5>
-     <h2>₹299</h2>
+     <h2>₹289</h2>
         <h4 style="color:red">  10 % off</h4>
         </div>
         </div>
